@@ -131,7 +131,7 @@ function update(player, header, image, buttonWater, buttonSun, buttonHiryo) {
 //終了処理をする関数
 function end(buttonWater,buttonSun, buttonHiryo,result) {
     buttonOff(buttonWater, buttonSun, buttonHiryo); //ボタン非活性関数の実行
-    setTimeout(function(){ alert(result) }, 500); //アラートまで0.5秒止める
+    setTimeout(function(){ alert(result) }, 1000); //アラートまで1秒止める
 
     //ヘッダー
     const endHeader = document.createElement('h4');
